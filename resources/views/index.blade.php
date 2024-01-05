@@ -9,10 +9,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" type="image/vnd.microsoft.icon" href="http://ps.magentech.com/themes/sp_destino/img/favicon.ico?1498271871">
         <link rel="shortcut icon" type="image/x-icon" href="http://ps.magentech.com/themes/sp_destino/img/favicon.ico?1498271871">
-        <link href="http://ps.magentech.com/themes/sp_destino/themes/sp_destino/assets/css/fonts/font-awesome.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="http://ps.magentech.com/themes/sp_destino/themes/sp_destino/assets/css/sp_lib/owl.carousel.css" rel="stylesheet" type="text/css" media="all" />
-        <link rel="stylesheet" href="http://ps.magentech.com/themes/sp_destino/themes/sp_destino/assets/cache/theme-f04059118.css" type="text/css" media="all">
-        <script type="text/javascript" src="http://ps.magentech.com/themes/sp_destino/themes/sp_destino/assets/cache/head-3f52a7117.js" ></script>
+        <link href="{{ asset('assets/css/fonts/font-awesome.css') }}" rel="stylesheet" type="text/css" media="all" />
+        <link href="{{ asset('assets/css/sp_lib/owl.carousel.css') }}" rel="stylesheet" type="text/css" media="all" />
+        <link rel="stylesheet" href="{{ asset('assets/cache/theme-f04059118.css') }}" type="text/css" media="all">
+        <script type="text/javascript" src="{{ asset('assets/cache/head-3f52a7117.js') }}" ></script>
         <script type="text/javascript">
             var blockwishlistController = "http:\/\/ps.magentech.com\/themes\/sp_destino\/en\/module\/blockwishlist\/action";
             var prestashop = {"cart":{"products":[],"totals":{"total":{"type":"total","label":"Total","amount":0,"value":"$0.00"},"total_including_tax":{"type":"total","label":"Total (tax incl.)","amount":0,"value":"$0.00"},"total_excluding_tax":{"type":"total","label":"Total (tax excl.)","amount":0,"value":"$0.00"}},"subtotals":{"products":{"type":"products","label":"Subtotal","amount":0,"value":"$0.00"},"discounts":null,"shipping":{"type":"shipping","label":"Shipping","amount":0,"value":""},"tax":{"type":"tax","label":"Taxes","amount":0,"value":"$0.00"}},"products_count":0,"summary_string":"0 items","vouchers":{"allowed":0,"added":[]},"discounts":[],"minimalPurchase":0,"minimalPurchaseRequired":""},"currency":{"id":1,"name":"US Dollar","iso_code":"USD","iso_code_num":"840","sign":"$"},"customer":{"lastname":null,"firstname":null,"email":null,"birthday":null,"newsletter":null,"newsletter_date_add":null,"optin":null,"website":null,"company":null,"siret":null,"ape":null,"is_logged":false,"gender":{"type":null,"name":null},"addresses":[]},"language":{"name":"English (English)","iso_code":"en","locale":"en-US","language_code":"en-us","is_rtl":"0","date_format_lite":"m\/d\/Y","date_format_full":"m\/d\/Y H:i:s","id":1},"page":{"title":"","canonical":null,"meta":{"title":"SP Destino","description":"Shop powered by PrestaShop","keywords":"","robots":"index"},"page_name":"index","body_classes":{"lang-en":true,"lang-rtl":false,"country-US":true,"currency-USD":true,"layout-full-width":true,"page-index":true,"tax-display-disabled":true},"admin_notifications":[]},"shop":{"name":"SP Destino","logo":"http:\/\/ps.magentech.com\/themes\/sp_destino\/img\/sp-destino-logo-1498271871.jpg","stores_icon":"http:\/\/ps.magentech.com\/themes\/sp_destino\/img\/logo_stores.png","favicon":"http:\/\/ps.magentech.com\/themes\/sp_destino\/img\/favicon.ico"},"urls":{"base_url":"http:\/\/ps.magentech.com\/themes\/sp_destino\/","current_url":"http:\/\/ps.magentech.com\/themes\/sp_destino\/en\/","shop_domain_url":"http:\/\/ps.magentech.com","img_ps_url":"http:\/\/ps.magentech.com\/themes\/sp_destino\/img\/","img_cat_url":"http:\/\/ps.magentech.com\/themes\/sp_destino\/img\/c\/","img_lang_url":"http:\/\/ps.magentech.com\/themes\/sp_destino\/img\/l\/","img_prod_url":"http:\/\/ps.magentech.com\/themes\/sp_destino\/img\/p\/","img_manu_url":"http:\/\/ps.magentech.com\/themes\/sp_destino\/img\/m\/","img_sup_url":"http:\/\/ps.magentech.com\/themes\/sp_destino\/img\/su\/","img_ship_url":"http:\/\/ps.magentech.com\/themes\/sp_destino\/img\/s\/","img_store_url":"http:\/\/ps.magentech.com\/themes\/sp_destino\/img\/st\/","img_col_url":"http:\/\/ps.magentech.com\/themes\/sp_destino\/img\/co\/","img_url":"http:\/\/ps.magentech.com\/themes\/sp_destino\/themes\/sp_destino\/assets\/img\/","css_url":"http:\/\/ps.magentech.com\/themes\/sp_destino\/themes\/sp_destino\/assets\/css\/","js_url":"http:\/\/ps.magentech.com\/themes\/sp_destino\/themes\/sp_destino\/assets\/js\/","pic_url":"http:\/\/ps.magentech.com\/themes\/sp_destino\/upload\/","pages":{"address":"http:\/\/ps.magentech.com\/themes\/sp_destino\/en\/address","addresses":"http:\/\/ps.magentech.com\/themes\/sp_destino\/en\/addresses","authentication":"http:\/\/ps.magentech.com\/themes\/sp_destino\/en\/login","cart":"http:\/\/ps.magentech.com\/themes\/sp_destino\/en\/cart","category":"http:\/\/ps.magentech.com\/themes\/sp_destino\/en\/index.php?controller=category","cms":"http:\/\/ps.magentech.com\/themes\/sp_destino\/en\/index.php?controller=cms","contact":"http:\/\/ps.magentech.com\/themes\/sp_destino\/en\/contact-us","discount":"http:\/\/ps.magentech.com\/themes\/sp_destino\/en\/discount","guest_tracking":"http:\/\/ps.magentech.com\/themes\/sp_destino\/en\/guest-tracking","history":"http:\/\/ps.magentech.com\/themes\/sp_destino\/en\/order-history","identity":"http:\/\/ps.magentech.com\/themes\/sp_destino\/en\/identity","index":"http:\/\/ps.magentech.com\/themes\/sp_destino\/en\/","my_account":"http:\/\/ps.magentech.com\/themes\/sp_destino\/en\/my-account","order_confirmation":"http:\/\/ps.magentech.com\/themes\/sp_destino\/en\/order-confirmation","order_detail":"http:\/\/ps.magentech.com\/themes\/sp_destino\/en\/index.php?controller=order-detail","order_follow":"http:\/\/ps.magentech.com\/themes\/sp_destino\/en\/order-follow","order":"http:\/\/ps.magentech.com\/themes\/sp_destino\/en\/order","order_return":"http:\/\/ps.magentech.com\/themes\/sp_destino\/en\/index.php?controller=order-return","order_slip":"http:\/\/ps.magentech.com\/themes\/sp_destino\/en\/credit-slip","pagenotfound":"http:\/\/ps.magentech.com\/themes\/sp_destino\/en\/page-not-found","password":"http:\/\/ps.magentech.com\/themes\/sp_destino\/en\/password-recovery","pdf_invoice":"http:\/\/ps.magentech.com\/themes\/sp_destino\/en\/index.php?controller=pdf-invoice","pdf_order_return":"http:\/\/ps.magentech.com\/themes\/sp_destino\/en\/index.php?controller=pdf-order-return","pdf_order_slip":"http:\/\/ps.magentech.com\/themes\/sp_destino\/en\/index.php?controller=pdf-order-slip","prices_drop":"http:\/\/ps.magentech.com\/themes\/sp_destino\/en\/prices-drop","product":"http:\/\/ps.magentech.com\/themes\/sp_destino\/en\/index.php?controller=product","search":"http:\/\/ps.magentech.com\/themes\/sp_destino\/en\/search","sitemap":"http:\/\/ps.magentech.com\/themes\/sp_destino\/en\/sitemap","stores":"http:\/\/ps.magentech.com\/themes\/sp_destino\/en\/stores","supplier":"http:\/\/ps.magentech.com\/themes\/sp_destino\/en\/supplier","register":"http:\/\/ps.magentech.com\/themes\/sp_destino\/en\/login?create_account=1","order_login":"http:\/\/ps.magentech.com\/themes\/sp_destino\/en\/order?login=1"},"alternative_langs":{"en-us":"http:\/\/ps.magentech.com\/themes\/sp_destino\/en\/","ar-sa":"http:\/\/ps.magentech.com\/themes\/sp_destino\/ar\/","es-es":"http:\/\/ps.magentech.com\/themes\/sp_destino\/es\/","fr-fr":"http:\/\/ps.magentech.com\/themes\/sp_destino\/fr\/","it-it":"http:\/\/ps.magentech.com\/themes\/sp_destino\/it\/"},"theme_assets":"\/themes\/sp_destino\/themes\/sp_destino\/assets\/","actions":{"logout":"http:\/\/ps.magentech.com\/themes\/sp_destino\/en\/?mylogout="},"no_picture_image":{"bySize":{"small_default":{"url":"http:\/\/ps.magentech.com\/themes\/sp_destino\/img\/p\/en-default-small_default.jpg","width":100,"height":133},"cart_default":{"url":"http:\/\/ps.magentech.com\/themes\/sp_destino\/img\/p\/en-default-cart_default.jpg","width":130,"height":173},"home_default":{"url":"http:\/\/ps.magentech.com\/themes\/sp_destino\/img\/p\/en-default-home_default.jpg","width":270,"height":360},"layout3_home_default":{"url":"http:\/\/ps.magentech.com\/themes\/sp_destino\/img\/p\/en-default-layout3_home_default.jpg","width":370,"height":493},"medium_default":{"url":"http:\/\/ps.magentech.com\/themes\/sp_destino\/img\/p\/en-default-medium_default.jpg","width":450,"height":600},"large_default":{"url":"http:\/\/ps.magentech.com\/themes\/sp_destino\/img\/p\/en-default-large_default.jpg","width":600,"height":800}},"small":{"url":"http:\/\/ps.magentech.com\/themes\/sp_destino\/img\/p\/en-default-small_default.jpg","width":100,"height":133},"medium":{"url":"http:\/\/ps.magentech.com\/themes\/sp_destino\/img\/p\/en-default-layout3_home_default.jpg","width":370,"height":493},"large":{"url":"http:\/\/ps.magentech.com\/themes\/sp_destino\/img\/p\/en-default-large_default.jpg","width":600,"height":800},"legend":""}},"configuration":{"display_taxes_label":false,"display_prices_tax_incl":false,"is_catalog":false,"show_prices":true,"opt_in":{"partner":true},"quantity_discount":{"type":"discount","label":"Unit discount"},"voucher_enabled":0,"return_enabled":0},"field_required":[],"breadcrumb":{"links":[{"title":"Home","url":"http:\/\/ps.magentech.com\/themes\/sp_destino\/en\/"}],"count":1},"link":{"protocol_link":"http:\/\/","protocol_content":"http:\/\/"},"time":1704441884,"static_token":"ad058822225e5bc001efbeecf58b661a","token":"3e4db6eb691cd3aeb19e3076bb8bb000","debug":false};
@@ -69,7 +69,7 @@
                     </div>
                 </div>
             </div>
-            <div 
+            <div
                 class="modal-backdrop fade"
                 :class="{in: !isHidden}"
                 >
@@ -138,7 +138,7 @@
                     </div>
                 </div>
             </div>
-            <div 
+            <div
                 class="modal-backdrop fade"
                 :class="{in: !isHidden}"
                 >
@@ -198,7 +198,7 @@
                     </div>
                 </div>
             </div>
-            <div 
+            <div
                 class="modal-backdrop fade"
                 :class="{in: !isHidden}"
                 >
@@ -771,7 +771,7 @@
                                                             $dealslider = $("#spdeal-slider-2", $element),
                                                             _delay = '500',
                                                             _duration = '1',
-                                                            _effect = 'none'; 
+                                                            _effect = 'none';
                                                           $dealslider.on("initialized.owl.carousel", function () {
                                                             var $item_active = $(".spdeal-item.active", $element);
                                                             if ($item_active.length > 1 && _effect != "none") {
@@ -783,7 +783,7 @@
                                                               $item.css("filter", "alpha(opacity = 100)");
                                                             }
                                                           });
-                                                        
+
                                                           $dealslider.owlCarousel({
                                                             margin: 10,
                                                             autoplay: false,
@@ -808,32 +808,32 @@
                                                             navClass: ["owl-prev", "owl-next"],
                                                             responsive:{
                                                               0:{
-                                                                items:1 // In this configuration 1 is enabled from 0px up to 479px screen size 
+                                                                items:1 // In this configuration 1 is enabled from 0px up to 479px screen size
                                                               },
                                                               480:{
-                                                                items:1 // In this configuration 1 is enabled from 0px up to 767px screen size 
-                                                              },  
+                                                                items:1 // In this configuration 1 is enabled from 0px up to 767px screen size
+                                                              },
                                                               768:{
-                                                                items:1 // In this configuration 1 is enabled from 0px up to 1199px screen size 
-                                                              },  
+                                                                items:1 // In this configuration 1 is enabled from 0px up to 1199px screen size
+                                                              },
                                                               1200:{
-                                                                items:1 // In this configuration 1 is enabled from 0px up to 1200px screen size 
-                                                              },                        
+                                                                items:1 // In this configuration 1 is enabled from 0px up to 1200px screen size
+                                                              },
                                                             }
                                                           });
-                                                        
+
                                                           $dealslider.on("translate.owl.carousel", function (e) {
                                                             var $item_active = $(".spdeal-item.active", $element);
                                                             _UngetAnimate($item_active);
                                                             _getAnimate($item_active);
                                                           });
-                                                        
+
                                                           $dealslider.on("translated.owl.carousel", function (e) {
                                                             var $item_active = $(".spdeal-item.active", $element);
                                                             var $item = $(".spdeal-item", $element);
-                                                            
+
                                                             _UngetAnimate($item);
-                                                        
+
                                                             if ($item_active.length > 1 && _effect != "none") {
                                                               _getAnimate($item_active);
                                                             } else {
@@ -841,7 +841,7 @@
                                                               $item.css("filter", "alpha(opacity = 100)");
                                                             }
                                                           });
-                                                        
+
                                                           function _getAnimate($el) {
                                                             if (_effect == "none") return;
                                                             //if ($.browser.msie && parseInt($.browser.version, 10) <= 9) return;
@@ -861,13 +861,13 @@
                                                               }).animate({
                                                                 opacity: 1
                                                               });
-                                                        
+
                                                               if (i == $el.size() - 1) {
                                                                 $dealslider.addClass("extra-animate");
                                                               }
                                                             });
                                                           }
-                                                        
+
                                                           function _UngetAnimate($el) {
                                                             $el.each(function (i) {
                                                               $(this).css({
@@ -879,7 +879,7 @@
                                                               });
                                                             });
                                                           }
-                                                          
+
                                                            var _timer = 0;
                                                           $(window).load(function () {
                                                             if (_timer) clearTimeout(_timer);
@@ -888,7 +888,7 @@
                                                               $element.removeClass("sp-preload");
                                                             }, 1000);
                                                           });
-                                                        
+
                                                           data = new Date(2013, 10, 26, 12, 00, 00);
                                                           function CountDown(date, id) {
                                                             dateNow = new Date();
@@ -919,13 +919,13 @@
                                                               out += "<div class='time-item time-sec'>" + "<div class='num-time'>" + secs + "</div>" + "<div class='name-time'>" + ((secs == 1) ? "Sec" : "Secs") + "</div>" + "</div>";
                                                               out = out.substr(0, out.length - 2);
                                                               $("." + id).html(out);
-                                                        
+
                                                                setTimeout(function () {
                                                                  CountDown(date, id);
                                                                }, 1000);
                                                             }
                                                           }
-                                                        
+
                                                           if (listdeal.length > 0) {
                                                             for (var i = 0; i < listdeal.length; i++) {
                                                               var arr = listdeal[i].split("|");
@@ -934,11 +934,11 @@
                                                                 CountDown(data, arr[0]);
                                                               }
                                                             }
-                                                          }         
-                                                        
+                                                          }
+
                                                         })("#sp_deal_2_17044418851230963544");
-                                                        });         
-                                                                
+                                                        });
+
                                                     </script>
                                                 </div>
                                                 <!-- /SP Slider -->
@@ -1075,9 +1075,9 @@
                                             </div>
                                             <div class="leftBanner">
                                                 <div class=" effect-1  spbanner">
-                                                    <a href="/" title="Banner 7">     
+                                                    <a href="/" title="Banner 7">
                                                     <img class="img-responsive" src="https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-6/415755704_1475858186606454_3888605884596299245_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c42490&_nc_ohc=h7QTGRy3gV0AX9f9N6z&_nc_ht=scontent.fsgn2-9.fna&oh=00_AfD_FBakytEDKWYsL9M5M0csR7JRP2RLsw_6tXQ6HUirrg&oe=659C7551" alt="Banner 7" title="Banner 7"/>
-                                                    </a> 
+                                                    </a>
                                                 </div>
                                             </div>
                                         </div>
@@ -4056,11 +4056,11 @@
                   }
                 });
               });
-              
+
             })(jQuery);
-            
-            
-        </script>       
+
+
+        </script>
         <div id="newsletter_block_popup">
             <div class="block_content clearfix">
                 <div class="close">x</div>
@@ -4089,19 +4089,19 @@
                 $(".close").click(function(){
                   $('#newsletter_block_popup').fadeOut('medium');
                 });
-                
+
                 $('.ckmsg').off('click').on('click', function(e){
                   var  c = 'checked', isChecked = $("input.ckmsg").is(":" + c);
                   var _checked = $("input.ckmsg:checked").length;
                   var options = {};
-                  options.expires = 1; 
+                  options.expires = 1;
                   if (_checked) {
                     $.cookie('sp_news_letter',1, options);
                   }else{
                     $.cookie('sp_news_letter',null);
                   }
                 });
-                
+
                 $('.check_lable').off('click').on('click', function(e){
                   e.preventDefault();
                   var  c = 'checked', isChecked = $("input.ckmsg").is(":" + c);
@@ -4109,7 +4109,7 @@
                   var _checked = $("input.ckmsg:checked").length;
                   _checked ?  $('.msg  span').addClass('checked') :  $('.msg  span').removeClass('checked', 'checked');
                   var options = {};
-                    options.expires = 1; 
+                    options.expires = 1;
                   if (_checked) {
                     $.cookie('sp_news_letter',1, options);
                   }else{
