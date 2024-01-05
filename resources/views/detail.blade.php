@@ -1211,28 +1211,7 @@
 
 
 </script>
-<div id="newsletter_block_popup">
-    <div class="block_content clearfix">
-        <div class="close">x</div>
-        <div class="content-inner">
-            <div class="newsDaily">Tin tức khuyến mãi</div>
-            <h3 class="title">Đăng kí để nhận thông báo</h3>
-            <form action="#" method="post" id="newsletter-validate-detail-popup">
-                <div class="form-group" >
-                    <input class="inputNew grey newsletter-input" size="80" id="newsletter-inputpopup" type="text" name="email"  placeholder="Nhập email..." />
-                    <button type="submit" name="submitNewsletter" class="btn btn-default button button-small">
-                        Đăng kí
-                    </button>
-                    <input type="hidden" name="action" value="0" />
-                </div>
-            </form>
-            <div class="msg">
-                <input type="checkbox" class="ckmsg"/>
-                <label class="check_lable">Không hiển thị lại nữa</label>
-            </div>
-        </div>
-    </div>
-</div>
+
 <script type="text/javascript">
     // <![CDATA[
     $(document).ready(function($){
